@@ -54,8 +54,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'xhMlwOvXzehIRx3SeCFS3ofgKk12')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Illegal_Developer/22")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlspay.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e9c14ecc179245950a51803d50966fd1567f57c0')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")

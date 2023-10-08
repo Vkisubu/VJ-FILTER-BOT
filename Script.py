@@ -218,7 +218,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 =========== • ✠ • ===========
 ▫️ ᴄʜᴀɴɴᴇʟ : @Bollywood_New_Hindi_Movies_Files
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : https://t.me/+4RB2-U2o9yE4ZmQ9
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : https://t.me/Illegal_Disscussion
 =========== • ✠ • ===========</b>""" 
 
     IMDB_TEMPLATE_TXT = """

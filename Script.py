@@ -209,17 +209,17 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-
+    CAPTION = """<b>@KSeriesFilm {file_name}</b>
+                 <b>🗃️ : {file_size}</b>
+                 <b>⏰ : {duration}</b>
 <b>
 ╭─────── • ◆ • ───────╮
 🔅 See Magic :  <a href="https://t.me/KSeriesFilm/3">Tᴏᴜᴄʜ</a>
 ╰─────── • ◆ • ───────╯
 
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @Bollywood_New_Hindi_Movies_Files
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : https://t.me/Illegal_Disscussion
-=========== • ✠ • ===========</b>""" 
+🔰 Join For Back-up
+@Bollywood_New_Hindi_Movies_Files
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}

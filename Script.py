@@ -211,7 +211,6 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>@KSeriesFilm {file_name}</b>
                  <b>🗃️ : {file_size}</b>
-                 <b>⏰ : {duration}</b>
 <b>
 ╭─────── • ◆ • ───────╮
 🔅 See Magic :  <a href="https://t.me/KSeriesFilm/3">Tᴏᴜᴄʜ</a>

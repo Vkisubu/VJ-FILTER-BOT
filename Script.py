@@ -209,12 +209,13 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>@KSeriesFilm {file_name}</b>
-                 <b>🗃️ : {file_size}</b>
+    CAPTION = """<b>@KSeriesFilm : </b> <code>{file_name}</code>
+                 <b>
 <b>
 ╭─────── • ◆ • ───────╮
 🔅 See Magic :  <a href="https://t.me/KSeriesFilm/3">Tᴏᴜᴄʜ</a>
 ╰─────── • ◆ • ───────╯
+
 
 🔰 Join For Back-up
 @Bollywood_New_Hindi_Movies_Files

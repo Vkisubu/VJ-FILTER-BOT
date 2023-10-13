@@ -211,11 +211,6 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
     CAPTION = """<b>@KSeriesFilm : </b> <code>{file_name}</code>
                  <b>
-<b>
-╭─────── • ◆ • ───────╮
-🔅 See Magic :  <a href="https://t.me/KSeriesFilm/3">Tᴏᴜᴄʜ</a>
-╰─────── • ◆ • ───────╯
-
 
 🔰 Join For Back-up
 @Bollywood_New_Hindi_Movies_Files

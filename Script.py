@@ -209,8 +209,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>@KSeriesFilm : </b> <code>{file_name}</code>
-                 <b>
+    CAPTION = """
+<b><a href='https://t.me/Bollywood_New_Hindi_Movies_Files'>{file_name}</a>
 
 🔰 Join For Back-up
 @Bollywood_New_Hindi_Movies_Files

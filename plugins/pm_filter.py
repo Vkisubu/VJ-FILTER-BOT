@@ -39,6 +39,7 @@ from urllib.parse import quote_plus
 from util.file_properties import get_name, get_hash, get_media_file_size
 
 logger = logging.getLogger(__name__)
+@Client.on_message((filters.group | filters.private) & filters.text & filters.incoming)
 logger.setLevel(logging.ERROR)
 
 BUTTON = {}

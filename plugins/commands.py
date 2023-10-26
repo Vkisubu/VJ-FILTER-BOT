@@ -328,7 +328,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>Hello {message.from_user.mention}, Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\nHow To Verify ➠ https://t.me/Illegal_Developer/27\n\n#Verification ✓</b>",
+                    text="<b>Hello {user} Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\nHow To Verify ➠ https://t.me/Illegal_Developer/27\n\n#Verification ✓</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -395,7 +395,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>Hello {message.from_user.mention}, Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\nHow To Verify ➠ https://t.me/Illegal_Developer/27\n\n#Verification ✓</b>",
+                    text="<b>Hello {user} Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\nHow To Verify ➠ https://t.me/Illegal_Developer/27\n\n#Verification ✓</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -457,7 +457,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>Hello {message.from_user.mention}, Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\nHow To Verify ➠ https://t.me/Illegal_Developer/27\n\n#Verification ✓</b>",
+            text="<b>Hello {user} Thanks To Use Me 🤝\n\n📌 ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪꜰɪᴇᴅ ᴛᴏᴅᴀʏ, ᴘʟᴇᴀꜱᴇ ᴠᴇʀɪꜰʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ꜰɪʟᴇ ᴀᴄᴄᴇꜱꜱ ꜰᴏʀ ᴛᴏᴅᴀʏ\n\nHow To Verify ➠ https://t.me/Illegal_Developer/27\n\n#Verification ✓</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )

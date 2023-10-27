@@ -325,7 +325,7 @@ async def start(client, message):
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 buttons = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="),)
                     InlineKeyboardButton("How To Verify ✓", url='https://t.me/Illegal_Developer/27')
                 ]]
                 await message.reply_text(
@@ -393,7 +393,7 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 buttons = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="),)
                     InlineKeyboardButton("How To Verify ✓", url='https://t.me/Illegal_Developer/27')                     
                 ]]
                 await message.reply_text(
@@ -456,7 +456,7 @@ async def start(client, message):
         f_caption = f"@KSeriesFilm  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         buttons = [[
-            InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+            InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="),)
             InlineKeyboardButton("How To Verify ✓", url='https://t.me/Illegal_Developer/27')                     
         ]]
         await message.reply_text(

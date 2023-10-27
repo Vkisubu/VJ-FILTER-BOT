@@ -324,7 +324,7 @@ async def start(client, message):
             if f_caption is None:
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
-                btn = [[
+                buttons = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="),
                     InlineKeyboardButton("How To Verify ✓", url='https://t.me/Illegal_Developer/27')         
                 ]]
@@ -392,7 +392,7 @@ async def start(client, message):
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
-                btn = [[
+                buttons = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="),
                     InlineKeyboardButton("How To Verify ✓", url='https://t.me/Illegal_Developer/27')                     
                 ]]
@@ -455,7 +455,7 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"@KSeriesFilm  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
-        btn = [[
+        buttons = [[
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="),
             InlineKeyboardButton("How To Verify ✓", url='https://t.me/Illegal_Developer/27')                     
         ]]

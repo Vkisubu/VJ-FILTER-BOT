@@ -254,6 +254,9 @@ async def start(client, message):
             )
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
+            madie = InlineKeyboardMarkup([
+                [InlineKeyboardButton("Verify Successful, Get Your File", url=f"https://telegram.me/{temp.U_NAME}?start=")],
+            ])
             await message.reply_text(
                 text=f"<b>Hey {message.from_user.mention}\n\nNow You are successfully verified For Today ✓\n\nNow You have Unlimited Access For All Movies Till Today Midnight.</b>",
                 protect_content=True

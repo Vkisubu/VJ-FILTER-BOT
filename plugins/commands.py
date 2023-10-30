@@ -299,9 +299,8 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(1200)
-        await k.edit("<b>Your message is successfully deleted!!!</b>")
-        return
+        await asyncio.sleep(300)
+        await k.delete()
         
     elif data.startswith("all"):
         files = temp.GETALL.get(file_id)
@@ -383,8 +382,8 @@ async def start(client, message):
                     ]
                 )
             )
-            await asyncio.sleep(1200)
-            await k.edit("<b>Your message is successfully deleted!!!</b>")
+            await asyncio.sleep(300)
+        await k.delete()
             return
     user = message.from_user.id
     files_ = await get_file_details(file_id)           

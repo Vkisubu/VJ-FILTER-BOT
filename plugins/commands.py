@@ -301,7 +301,7 @@ async def start(client, message):
         )
         await asyncio.sleep(300)
         await k.delete()
-        
+        return
     elif data.startswith("all"):
         files = temp.GETALL.get(file_id)
         if not files:
@@ -383,7 +383,7 @@ async def start(client, message):
                 )
             )
             await asyncio.sleep(300)
-        await k.delete()
+            await k.delete()
             return
     user = message.from_user.id
     files_ = await get_file_details(file_id)           

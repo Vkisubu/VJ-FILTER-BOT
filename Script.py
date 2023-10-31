@@ -4,16 +4,16 @@
 
 
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},/nᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>,I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
+    START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>,I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
- ✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/IllegalAutoFilterBot>ɪʟʟᴇɢᴀʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ</a>
- ✯ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/IllegalDeveloperBot'>ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♔</a> 
- ✯ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ᴘʀɪᴠᴀᴛᴇ</a> 
- ✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+ ✯ ᴍʏ ɴᴀᴍᴇ : ɪʟʟᴇɢᴀʟ ꜰɪʟᴛᴇʀ ʙᴏᴛ ≛
+ ✯ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/IllegalDeveloperBot'>ɪʟʟᴇɢᴀʟ ᴅᴇᴠᴇʟᴏᴘᴇʀ</a> 🕷
+ ✯ ʙᴏᴛ sᴇʀᴠᴇʀ : ᴘʀɪᴠᴀᴛᴇ
+ ✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]</b>"""
 
     PREMIUM_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""

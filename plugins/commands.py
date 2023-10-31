@@ -265,7 +265,7 @@ async def start(client, message):
             ])
             await message.reply_text(
                 text=f"<b>Hey {message.from_user.mention}\n\nNow You are successfully verified For Today ✓\n\nNow You have Unlimited Access For All Movies Till Today Midnight.</b>",
-                protect_content=True
+                reply_markup=madie
             )
             await verify_user(client, userid, token)
         else:

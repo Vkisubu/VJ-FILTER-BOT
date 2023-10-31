@@ -137,7 +137,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}")
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
             
         ])
     else:
@@ -150,7 +150,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}")
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
             
         ])
     try:
@@ -366,7 +366,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}")
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
             
         ])
     else:
@@ -379,7 +379,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}")
+            InlineKeyboardButton(""Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
             
         ])
 
@@ -558,7 +558,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}")
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
             
         ])
         
@@ -1299,7 +1299,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-InlineKeyboardButton('💰 Buy Premium for adz Free Movies ✅', callback_data='buy_premium')
+InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_premium')
                 ],[ 
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
@@ -2030,7 +2030,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}")
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
           
         ])
     else:
@@ -2043,7 +2043,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}")
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
             
         ])
     if offset != "":

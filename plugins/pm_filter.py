@@ -1866,7 +1866,7 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
     elif query.data == "buy_premium":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("💳 Buy Premium", callback_data="premium_plan")  
+                    InlineKeyboardButton("💳 Buy Premium", url="https://t.me/IllegalDeveloperBot")  
                   ]]
         
             await client.edit_message_media(

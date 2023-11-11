@@ -263,7 +263,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             madie = InlineKeyboardMarkup([
-                [InlineKeyboardButton("Verify Successful, Get Your File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")],
+                [InlineKeyboardButton("Verify Successful, Get Your File", url=f"https://t.me/+4RB2-U2o9yE4ZmQ9")],
             ])
             await message.reply_text(
                 text=f"<b>Hey {message.from_user.mention}\n\nNow You are successfully verified For Today ✓\n\nNow You have Unlimited Access For All Movies Till Today Midnight.</b>",
@@ -289,7 +289,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(300)
+        await asyncio.sleep(120)
         await k.edit("<b>Your message is successfully deleted!!!</b>")
         return
         
@@ -310,7 +310,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(300)
+        await asyncio.sleep(120)
         await k.delete()
         return
     elif data.startswith("all"):
@@ -445,7 +445,7 @@ async def start(client, message):
                 InlineKeyboardButton("Get File Again", url='https://t.me/+4RB2-U2o9yE4ZmQ9')
             ]]
             k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
-            await asyncio.sleep(600)
+            await asyncio.sleep(250)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
             return
@@ -498,7 +498,7 @@ async def start(client, message):
         InlineKeyboardButton("Get File Again", url='https://t.me/+4RB2-U2o9yE4ZmQ9')
     ]]
     k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
-    await asyncio.sleep(600)
+    await asyncio.sleep(250)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
     return

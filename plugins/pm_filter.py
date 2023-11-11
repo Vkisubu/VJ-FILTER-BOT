@@ -1720,6 +1720,9 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             )
     elif query.data == "tamil_info":
             btn = [[
+                    InlineKeyboardButton("1 Month", callback_data="help"),
+                    InlineKeyboardButton("2 Month", url="https://t.me/IllegalDeveloperBot")
+                 ],[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/IllegalDeveloperBot")
                   ]]

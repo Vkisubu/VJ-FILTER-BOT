@@ -1863,7 +1863,7 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-        elif query.data == "premium_text":
+        elif query.data == "illegal_text":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("💳 Buy Premium", url="https://t.me/IllegalDeveloperBot")  
@@ -1876,7 +1876,7 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=(script.PREMIUM_TEXT),
+                text=(script.ILLEGAL_TEXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )

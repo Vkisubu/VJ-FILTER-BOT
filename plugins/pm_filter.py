@@ -1720,8 +1720,16 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             )
     elif query.data == "tamil_info":
             btn = [[
-                    InlineKeyboardButton("1 Month", callback_data="help"),
-                    InlineKeyboardButton("2 Month", url="https://t.me/IllegalDeveloperBot")
+                    InlineKeyboardButton("‹1 Week: ₹15", callback_data="help"),
+                    InlineKeyboardButton("‹1 ᴍᴏɴᴛʜ: ₹39", url="https://t.me/IllegalDeveloperBot")
+                 ],[
+                    InlineKeyboardButton("‹2 ᴍᴏɴᴛʜꜱ: ₹75", callback_data="help"),
+                    InlineKeyboardButton("‹3 ᴍᴏɴᴛʜꜱ: ₹110", url="https://t.me/IllegalDeveloperBot")
+                 ],[
+                    InlineKeyboardButton("‹6 ᴍᴏɴᴛʜꜱ: ₹199", callback_data="help"),
+                    InlineKeyboardButton("‹1 ʏᴇᴀʀ: ₹360", url="https://t.me/IllegalDeveloperBot")
+                 ],[
+                    InlineKeyboardButton("📸 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url="https://t.me/IllegalDeveloperBot")
                  ],[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/IllegalDeveloperBot")

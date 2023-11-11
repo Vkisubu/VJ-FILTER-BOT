@@ -1850,7 +1850,7 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
     elif query.data == "gujarati_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", callback_data="premium_plan")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/IllegalDeveloperBot")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1866,7 +1866,7 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
     elif query.data == "buy_premium":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("💳 Buy Premium", url="https://t.me/IllegalDeveloperBot")  
+                    InlineKeyboardButton("💳 Buy Premium", callback_data="gujarati_info")  
                   ]]
         
             await client.edit_message_media(

@@ -1579,7 +1579,7 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             btn = [[
                 InlineKeyboardButton("👇Select Your Language 👇", callback_data="laninfo")
         ], [
-            InlineKeyboardButton("Tamil", callback_data="tamil_info"),
+            InlineKeyboardButton("Gujarati", callback_data="gujarati_info"),
             InlineKeyboardButton("English", callback_data="english_info"),
             InlineKeyboardButton("Hindi", callback_data="hindi_info")
         ], [
@@ -1720,14 +1720,14 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             )
     elif query.data == "tamil_info":
             btn = [[
-                    InlineKeyboardButton("‹1 Week: ₹15", callback_data="help"),
-                    InlineKeyboardButton("‹1 ᴍᴏɴᴛʜ: ₹39", url="https://t.me/IllegalDeveloperBot")
+                    InlineKeyboardButton("‹1 Week: ₹15", url="https://paytm.me/sL-UeYa"),
+                    InlineKeyboardButton("‹1 ᴍᴏɴᴛʜ: ₹39", url="https://paytm.me/95Pr-Pc")
                  ],[
-                    InlineKeyboardButton("‹2 ᴍᴏɴᴛʜꜱ: ₹75", callback_data="help"),
-                    InlineKeyboardButton("‹3 ᴍᴏɴᴛʜꜱ: ₹110", url="https://t.me/IllegalDeveloperBot")
+                    InlineKeyboardButton("‹2 ᴍᴏɴᴛʜꜱ: ₹75", url="https://paytm.me/03mH-bU"),
+                    InlineKeyboardButton("‹3 ᴍᴏɴᴛʜꜱ: ₹110", url="https://paytm.me/kHza-B6")
                  ],[
-                    InlineKeyboardButton("‹6 ᴍᴏɴᴛʜꜱ: ₹199", callback_data="help"),
-                    InlineKeyboardButton("‹1 ʏᴇᴀʀ: ₹360", url="https://t.me/IllegalDeveloperBot")
+                    InlineKeyboardButton("‹6 ᴍᴏɴᴛʜꜱ: ₹199", url="https://paytm.me/Q-L9HDR"),
+                    InlineKeyboardButton("‹1 ʏᴇᴀʀ: ₹360", url="https://paytm.me/w47b-2b")
                  ],[
                     InlineKeyboardButton("📸 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url="https://t.me/IllegalDeveloperBot")
                  ],[
@@ -1737,7 +1737,7 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
+                InputMediaPhoto("https://telegra.ph/file/31545694a6c980176235d.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
@@ -1876,14 +1876,15 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             )
     elif query.data == "buy_premium":
             btn = [[
+                    InlineKeyboardButton("🍁 𝗖𝗵𝗲𝗰𝗸 𝗔𝗹𝗹 𝗣𝗹𝗮𝗻 & 𝗣𝗿𝗶𝗰𝗲𝘀 🍁", callback_data="tamil_info")  
+                 ],[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("💳 Buy Premium", callback_data="tamil_info")  
                   ]]
         
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
-                InputMediaPhoto("https://graph.org/file/758a0089b5aec87f6fa8f.jpg")
+                InputMediaPhoto("https://telegra.ph/file/3ccdc44e6f2879250a399.jpg")
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(

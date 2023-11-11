@@ -1863,6 +1863,23 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
+        elif query.data == "premium_plan":
+            btn = [[
+                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
+                    InlineKeyboardButton("💳 Buy Premium", url="https://t.me/IllegalDeveloperBot")  
+                  ]]
+        
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto("https://graph.org/file/758a0089b5aec87f6fa8f.jpg")
+            )
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script.PREMIUM_PLAN),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
     elif query.data == "buy_premium":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),

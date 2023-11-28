@@ -137,7 +137,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data="tamil_info")
             
         ])
     else:
@@ -150,7 +150,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data="tamil_info")
             
         ])
     try:
@@ -366,7 +366,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data="tamil_info")
             
         ])
     else:
@@ -379,7 +379,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data="tamil_info")
             
         ])
 
@@ -558,7 +558,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data="tamil_info")
             
         ])
         
@@ -1294,13 +1294,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💵 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🎭 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('🔐 ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ', callback_data='buy_premium'
                 ],[
-                    InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('🍁 ғᴇᴀᴛᴜʀᴇs', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_premium')
-                ],[ 
                     InlineKeyboardButton('♻️ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ♻️', url=CHNL_LNK)
                   ]]
         
@@ -1720,14 +1718,14 @@ InlineKeyboardButton('💰 Buy Premium For Ad Free Movies', callback_data='buy_p
             )
     elif query.data == "tamil_info":
             btn = [[
-                    InlineKeyboardButton("‹1 Week: ₹15", url="https://paytm.me/sL-UeYa"),
-                    InlineKeyboardButton("‹1 ᴍᴏɴᴛʜ: ₹39", url="https://paytm.me/95Pr-Pc")
+                    InlineKeyboardButton("‹1 Week: ₹15", url="https://tinyurl.com/1weekpremium"),
+                    InlineKeyboardButton("‹1 ᴍᴏɴᴛʜ: ₹39", url="https://tinyurl.com/1-month-premium")
                  ],[
-                    InlineKeyboardButton("‹2 ᴍᴏɴᴛʜꜱ: ₹75", url="https://paytm.me/03mH-bU"),
-                    InlineKeyboardButton("‹3 ᴍᴏɴᴛʜꜱ: ₹110", url="https://paytm.me/kHza-B6")
+                    InlineKeyboardButton("‹2 ᴍᴏɴᴛʜꜱ: ₹75", url="https://tinyurl.com/2monthpremium"),
+                    InlineKeyboardButton("‹3 ᴍᴏɴᴛʜꜱ: ₹110", url="https://tinyurl.com/3monthpremium")
                  ],[
-                    InlineKeyboardButton("‹6 ᴍᴏɴᴛʜꜱ: ₹199", url="https://paytm.me/Q-L9HDR"),
-                    InlineKeyboardButton("‹1 ʏᴇᴀʀ: ₹360", url="https://paytm.me/w47b-2b")
+                    InlineKeyboardButton("‹6 ᴍᴏɴᴛʜꜱ: ₹199", url="https://tinyurl.com/6monthpremium"),
+                    InlineKeyboardButton("‹1 ʏᴇᴀʀ: ₹360", url="https://tinyurl.com/1year-premium")
                  ],[
                     InlineKeyboardButton("📸 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ 📸", url="https://t.me/IllegalDeveloperBot")
                  ],[
@@ -2042,7 +2040,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data="tamil_info")
           
         ])
     else:
@@ -2055,7 +2053,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data='buy_premium')
+            InlineKeyboardButton("Buy Premium For Ad Free Movie 🍿", callback_data="tamil_info")
             
         ])
     if offset != "":
